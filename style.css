@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 230, 197);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.family-one{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+.family-one-first{
+    width: 70%;
+}
+.family-one-second{
+    width: 20%;
+}
+.family-one-first .family-one-first-child-one {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.family-one-first-child-one .sec-1 {
+    background-color: gold;
+    width: 80%;
+    height: 100px;
+}
+
+.family-one-first-child-one .sec-2 {
+    background-color: silver;
+    width: 90%;
+    height: 100px;
+}
+
+
+
+.family-one .family-one-second {
+    background-color: brown;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+}
+
+/* family end */
+
+.family-two {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.family-two-first {
+    width: 70%;
+}
+
+.family-two-second {
+    width: 30%;
+}
+
+.family-two-first .family-two-first-child-two {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.family-two-first-child-two .sec-1 {
+    background-color: blue;
+    width: 50%;
+    height: px;
+}
+
+.family-two-first-child-two .sec-2 {
+    background-color: salmon;
+    width: 50%;
+    height: 150px;
+}
+
+
+
+.family-two .family-two-second {
+    background-color: slategray;
+    text-align: center;
+    height: px;
+    width: 30%;
+}
+/* end */
+.family-three {
+    width: 100%;
+    display: flex;
+    gap: px;
+    margin-top: 20px;
+}
+.family-three-first{
+    width: 120%;
+}
+
+.family-three-first .family-three-first-child-three{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.family-three-first-child-three .sec-1{
+    background-color: indigo;
+    width: 49%;
+    height: 100px;
+}
+.family-three-first-child-three .sec-2 {
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+}
+/* family four */
+.family-four {
+    width: 100%;
+    display: flex;
+    gap: px;
+    margin-top: 20px;
+}
+
+.family-four-first {
+    width: 120%;
+}
+
+.family-four-first .family-four-first-child-four {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.family-four-first-child-four .sec-1 {
+    background-color: rgb(251, 255, 0);
+    width: 100%;
+    height: 100px;
+}
+
+.family-four-first-child-four .sec-2 {
+    background-color: rgb(247, 0, 255);
+    width: 40%;
+    height: 100px;
+}
+/* four end */
+
+.family-five{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.family-five-first {
+    width: 75%;
+}
+
+.family-five-second {
+    width: 50%;
+}
+
+.family-five-first .family-five-first-child-five {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.family-five-first-child-five .sec-1 {
+    background-color: rgb(178, 223, 17);
+    width: 60%;
+    height: px;
+}
+
+.family-five-first-child-five .sec-2 {
+    background-color: rgb(100, 207, 12);
+    width: 50%;
+    height: 100px;
+}
+
+
+
+.family-five .family-five-second {
+    background-color: rgb(3, 3, 92);
+    text-align: center;
+    height: px;
+    width: 30%;
+}
+/* family 6 */
+.family-six {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.family-six-sec-1 {
+     width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+/* glass */
+.body{
+    background:linear-gradient(to left,black,rgb(207, 21, 21),pink,orange,green,silver,purple,silver,turquoise,lavender,teal,brown,cyan,plum,ivory,violet,sienna,aqua);
+    height: 300px;
+    background-size: cover;
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    
+
+}
+.container{
+    width: 350px;
+    height: 200px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    transition: background-color 3.3s ease;
+}
+.container:hover{
+    
+    color: black;
+    transform: rotate(150deg);
+}
+.atm{
+    text-align: left;
+    color: gold;
+    margin-left: 10px;
+
+}
+.ver{
+    text-align: end;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.var{
+    background-color: red;
+    border-radius: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+    
+}
